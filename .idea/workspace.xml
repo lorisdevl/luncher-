@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="309fc2d9-b990-4e46-a28b-4cef4ecfd5eb" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/looris/buildeurdecorateur/Frame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/looris/buildeurdecorateur/Launcher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/looris/buildeurdecorateur/Panel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/looris/buildeurdecorateur/utils/microsoftThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Launcher.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/ico.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/start.png" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="workspaceImportEnabled" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2OS8idiCoU4KGXMU7TO0zTjX50X" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/PCP-ELEVE/Desktop/Dev/LIB/flowupdater-1.7.4.jar",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\PCP-ELEVE\Desktop\Launcher 2.0\BuildeurDecorateur\src\main\resources" />
+      <recent name="C:\Users\PCP-ELEVE\Desktop\Launcher 2.0\BuildeurDecorateur\src\main\java\fr\looris\buildeurdecorateur" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Frame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fr.looris.buildeurdecorateur.Frame" />
+      <module name="BuildeurDecorateur" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fr.looris.buildeurdecorateur.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Frame" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="309fc2d9-b990-4e46-a28b-4cef4ecfd5eb" name="Changes" comment="" />
+      <created>1681542754765</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1681542754765</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/BuildeurDecorateur$Frame.ic" NAME="Frame Coverage Results" MODIFIED="1681583141279" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>fr.looris.buildeurdecorateur.*</FILTER>
+    </SUITE>
+  </component>
+</project>
