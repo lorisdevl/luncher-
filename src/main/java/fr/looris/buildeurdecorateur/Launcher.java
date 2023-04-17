@@ -19,7 +19,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Launcher {
-    private static final GameInfos gameInfos = new GameInfos("buildeurdecorateur", new GameVersion("1.12.2", GameType.V1_13_HIGHER_FORGE), new GameTweak[]{GameTweak.FORGE});
+    private static final GameInfos gameInfos = new GameInfos("buildeurdecorateur", new GameVersion("1.19", GameType.V1_13_HIGHER_FORGE), new GameTweak[]{GameTweak.FORGE});
     private static Path path = gameInfos.getGameDir();
     public static File crashFile = new File(String.valueOf(path), "crashes");
     private static CrashReporter reporter = new CrashReporter(String.valueOf(crashFile), path);
@@ -32,13 +32,13 @@ public class Launcher {
     }
 
     static void update() throws Exception {
-        VanillaVersion vanillaVersion = new VanillaVersion.VanillaVersionBuilder().withName("1.12.2").build();
+        VanillaVersion vanillaVersion = new VanillaVersion.VanillaVersionBuilder().withName("1.19").build();
         UpdaterOptions options = new UpdaterOptions.UpdaterOptionsBuilder().build();
 
         List<CurseFileInfo> curseFileInfos = new ArrayList<>();
-        curseFileInfos.add(new CurseFileInfo(238222, 4393461));
+        curseFileInfos.add(new CurseFileInfo(238222, 3903068));
 
-        AbstractForgeVersion version = new ForgeVersionBuilder(ForgeVersionBuilder.ForgeVersionType.NEW).withCurseMods(curseFileInfos).withForgeVersion("14.23.5.2859").build();
+        AbstractForgeVersion version = new ForgeVersionBuilder(ForgeVersionBuilder.ForgeVersionType.NEW).withCurseMods(curseFileInfos).withForgeVersion("41.1.0").build();
 
         FlowUpdater updater = new FlowUpdater.FlowUpdaterBuilder().withVanillaVersion(vanillaVersion).withUpdaterOptions(options).withModLoaderVersion(version).build();
         updater.update(path);
@@ -46,7 +46,7 @@ public class Launcher {
 
     public static void launch() throws Exception {
         NoFramework noFramework = new NoFramework(path, authInfos, GameFolder.FLOW_UPDATER);
-       // noFramework.launch("1.12.2", "14.23.5.2859", NoFramework.ModLoader.FORGE);
+        noFramework.launch("1.19", "41.1.0", NoFramework.ModLoader.FORGE);
     }
 
     public static CrashReporter getReporter() {

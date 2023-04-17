@@ -1,6 +1,8 @@
 package fr.looris.buildeurdecorateur;
 
 
+import fr.theshark34.swinger.util.WindowMover;
+
 import javax.imageio.ImageIO;
 import javax.swing.*;
 import java.awt.*;
@@ -23,9 +25,9 @@ public class Frame extends JFrame {
         this.setIconImage(getImage("ico.png"));
         this.setContentPane(panel = new Panel());
 
-        //WindowMover mover = new WindowMover(this);
-      //  this.addMouseListener(mover);
-      //  this.addMouseMotionListener(mover);
+        WindowMover mover = new WindowMover(this);
+        this.addMouseListener(mover);
+        this.addMouseMotionListener(mover);
 
         this.setVisible(true);
     }
@@ -34,6 +36,7 @@ public class Frame extends JFrame {
         Launcher.crashFile.mkdir();
 
         instance = new Frame();
+
     }
 
     public static Image getImage(String fichier) throws IOException {
